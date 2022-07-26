@@ -5,7 +5,6 @@ A simple program written in Python to give you the image URL of a comic on GoCom
 Running is simple, but first you need the following libraries. They're all installable through pip.
 ```
 argparse
-html-to-json
 requests
 ```
 After all of that, all you need to do is run the app and supply the URL to the comic. \
