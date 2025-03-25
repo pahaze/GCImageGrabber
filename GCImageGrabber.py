@@ -24,7 +24,7 @@ def getResponse(url):
 
     response = requests.get(url=url).text
 
-    start = response.find('https://assets.amuniversal.com')
+    start = response.find('https://featureassets.amuniversal.com/assets/')
     link = response[start:].partition('"')[0]
     print(f'Image URL for {url} is {link}')
 
